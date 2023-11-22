@@ -120,7 +120,7 @@ def table_data_filter_byId(id) :
         print('---------|---------------|---------------|---------------|---------------|---------------|---------------|--------')
         for i in range(len(filter_result)):
             print("{}\t |{} \t |{} \t\t |{} \t |{} \t\t |{} \t\t |{} \t\t |{}".format(filter_result[i]["id"], filter_result[i]["nama"], filter_result[i]["stock_in"] - filter_result[i]["stock_out"], filter_result[i]["jenis"], filter_result[i]["stock_in"], filter_result[i]["stock_out"], filter_result[i]["harga"], filter_result[i]["status_barang"]))
-        print('----------------------------------------------------------------------------------------------------------000000--')
+        print('------------------------------------------------------------------------------------------------------------')
     else:
         print('Data tidak ditemukan')
 
